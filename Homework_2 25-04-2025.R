@@ -32,6 +32,7 @@ df1$age > 10 #df1$age This gives the age column from the data frame df1.
 df1$is_human & df1$gender == "female"
 
 #subset of females
+Isfemale = df1[ df1$gender == "female",]
 Isfemale 
 female_N_agesubset
 
